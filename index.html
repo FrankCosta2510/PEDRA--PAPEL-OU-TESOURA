@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedra, Papel ou Tesoura</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+    <div class="container">
+        <h1>Pedra, Papel ou Tesoura</h1>
+        <br>
+
+        <div class="buttons">
+            <button id="rock" onclick="playHuman('rock')">&#129364</button>
+            <button id="paper" onclick="playHuman('paper')">&#128196</button>
+            <button id="scissors" onclick="playHuman('scissors')">&#9986</button>
+        </div>
+
+        <br>
+
+        <P id="humano-score">Sua Pontuação:<span id="human-score">0</span></P>
+        <p id="maquina-score">Pontuação da Maquina:<span id="machine-score">0</span></p>
+        <p class="result"></p>
+    </div>
+
+<script src="./java.js"></script>
+
+
+</body>
+
+</html>
